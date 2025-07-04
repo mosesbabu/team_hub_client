@@ -73,14 +73,16 @@ const SignUp = () => {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center gap-6 bg-muted p-6 md:p-10">
       <div className="flex w-full max-w-sm flex-col gap-6">
-        <Link
-          to="/"
-          className="flex items-center gap-2 self-center font-medium"
-        >
-          <Logo />
-          Team Hub.
-          Your Team Management Platfrom.
-        </Link>
+<Link
+  to="/"
+  className="flex flex-col items-center self-center font-medium text-center"
+>
+  <div className="flex items-center gap-2">
+    <Logo />
+    <span className="text-lg">Team Hub.</span> {/* Adjust text size as needed */}
+  </div>
+  <span className="text-sm font-normal mt-1">Your Team Management Platform.</span>
+</Link>
         <div className="flex flex-col gap-6">
           <Card>
             <CardHeader className="text-center">
