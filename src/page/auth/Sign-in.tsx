@@ -77,13 +77,13 @@ const SignIn = () => {
       <div className="flex w-full max-w-sm flex-col gap-6">
 <Link
   to="/"
-  className="flex flex-col self-center font-medium"
+  className="flex flex-col items-center self-center font-medium text-center"
 >
   <div className="flex items-center gap-2">
     <Logo />
-    <span>Team Hub.</span>
+    <span className="text-lg">Team Hub.</span> {/* Adjust text size as needed */}
   </div>
-  <span className="text-sm font-normal">Your Team Management Platform.</span>
+  <span className="text-sm font-normal mt-1">Your Team Management Platform.</span>
 </Link>
         <div className="flex flex-col gap-6">
           <Card>
