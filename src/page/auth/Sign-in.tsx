@@ -80,9 +80,9 @@ const SignIn = () => {
           className="flex items-center gap-2 self-center font-medium"
         >
           <Logo />
-          Team Hub.
-        <br/>
-          Your Team Management Platform.
+         <div>Team Hub.</div> 
+        
+          <div>Your Team Management Platform.</div>
         </Link>
         <div className="flex flex-col gap-6">
           <Card>
