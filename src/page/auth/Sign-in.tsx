@@ -81,7 +81,8 @@ const SignIn = () => {
         >
           <Logo />
           Team Hub.
-          Your Team Management Platfrom.
+        <br/>
+          Your Team Management Platform.
         </Link>
         <div className="flex flex-col gap-6">
           <Card>
